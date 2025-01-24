@@ -3,7 +3,7 @@ MAINTAINER Michael Ferguson <mpherg@gmail.com>
 
 ENV BLYNK_SERVER_VERSION 0.41.17
 RUN mkdir /blynk
-RUN curl -L https://github.com/blynkkk/blynk-server/releases/download/v${BLYNK_SERVER_VERSION}/server-${BLYNK_SERVER_VERSION}.jar > /blynk/server.jar
+RUN curl -L https://github.com/Peterkn2001/blynk-server/releases/download/v${BLYNK_SERVER_VERSION}/server-${BLYNK_SERVER_VERSION}.jar > /blynk/server.jar
 
 # Create data folder. To persist data, map a volume to /data
 RUN mkdir /data
